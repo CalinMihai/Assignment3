@@ -2,15 +2,15 @@
 int main()
 {
 int n;
-scanef("%d", &n);
+scanf("%d", &n);
 int sum = 0;
 int nextValue = 1;
 int i;
-for(i = 0; i < n; i++) {
-sum += nextValue;
+printf("An=0");
+for(i = 1; i <= n; i++) {
+sum = nextValue;
 nextValue *= 3;
-printf("%d", sum);
+printf("%+d", sum);
 }
 return 0;
 }
-
